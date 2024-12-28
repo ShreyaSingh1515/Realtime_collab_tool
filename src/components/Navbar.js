@@ -15,7 +15,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
             <div className="container-fluid">
                 <Link className="navbar-brand fs-3" to="/">
-                    <img src="https://up.yimg.com/ib/th?id=OIP.ZKbEw_DurNrXU11lIw_aIQHaFj&pid=Api&rs=1&c=1&qlt=95&w=165&h=123" alt="CollabTool Logo" className="d-inline-block align-text-top-mt-2" width="65" height="35" />CollabTool
+                    <img src="https://cdn-icons-png.flaticon.com/512/4419/4419067.png" alt="CollabTool Logo" className="d-inline-block align-text-top-mt-2" width="65" height="35" />CollabTool
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

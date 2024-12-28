@@ -8,9 +8,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+    
     return (
         <Router>
+            
             <Navbar />
+            
             <Routes>
                 <Route path="/" element={<LandingPage/>} />
                 <Route path="/login" element={<Login/>} />

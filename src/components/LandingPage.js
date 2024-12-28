@@ -5,10 +5,12 @@ import '../styles/LandingPage.css';
 
 const LandingPage = () => {
     return (
-        <div className="container mt-5">
-            <div className="row justify-content-center">
+        <div className=" container mt-1 md-1  ">
+             
+            <div className="row justify-content-center  ">
                 <div className="col-lg-8 text-center">
-                    <div className="bg-light p-5 rounded shadow-lg">
+                    <div className=" holo bg-light p-5 rounded shadow-lg mt-5">
+                       
                         <h1 className="display-4 text-primary mb-4">Welcome to CollabTool</h1>
                         <p className="lead text-secondary mb-4">
                         CollabTool is designed to help teams work seamlessly in real-time, share ideas, and track progress—all in one intuitive platform. 
@@ -17,7 +19,7 @@ const LandingPage = () => {
                             <Link to="/register" className="btn btn-primary btn-lg me-3 px-5 py-3 shadow-sm">
                                 <i className="bi bi-person-plus"></i> Get Started
                             </Link>
-                            <Link to="/login" className="btn btn-outline-danger btn-lg px-5 py-3 shadow-sm">
+                            <Link to="/login" className="btn btn-outline-success  btn-lg px-5 py-3 shadow-sm">
                                 <i className="bi bi-box-arrow-in-right"></i> Login
                             </Link>
                         </div>

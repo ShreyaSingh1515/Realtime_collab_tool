@@ -1,6 +1,10 @@
 /* Add smooth transition to the page elements */
 .container {
+   
     animation: fadeIn 1s ease-out;
+    background-image: url("https://t3.ftcdn.net/jpg/03/40/83/96/360_F_340839611_z3u0S1eLyo3OqHpnonaAVwXdTsLOdT1T.jpg");
+    background-size: cover;
+    
 }
 
 .bg-light {
@@ -86,6 +90,7 @@ footer p {
         transform: translateY(0);
     }
 }
+
 
 /* Styling the footer link */
 footer .text-primary {
